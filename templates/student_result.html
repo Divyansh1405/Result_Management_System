@@ -1,0 +1,10 @@
+<h2>Student Result</h2>
+<p>Roll: {{ student[0] }}</p>
+<p>Name: {{ student[1] }}</p>
+<p>Math: {{ student[2] }}</p>
+<p>Science: {{ student[3] }}</p>
+<p>English: {{ student[4] }}</p>
+<p>Total: {{ student[2] + student[3] + student[4] }}</p>
+<p>Percentage: {{ (student[2] + student[3] + student[4]) / 3 }}%</p>
+<a href="/download/{{ student[0] }}">Download PDF</a>
+<br><a href="/dashboard">Back</a>
