@@ -9,8 +9,8 @@ app.secret_key = 'your_secret_key'
 # MySQL Config
 db = mysql.connector.connect(
     host="localhost",
-    user="root",
-    password="password",  # change this
+    user="your_username", #change this
+    password="your_password",  # change this
     database="result_db"
 )
 cursor = db.cursor()
